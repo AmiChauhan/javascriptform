@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body class="h-100 w-100">
+<!--<div class="container-fluid h-100 w-100 ">-->
+    <!--<div class="row   align-items-center justify-content-center ">-->
+        <!--<h4> REGISTRATION FORM</h4>-->
+
+
+    <!--</div>-->
+    <div class="row h-100  justify-content-center  ">
+
+        <div class=" col-8 h-100   ">
+         <h3 class="text">REGISTRATION FORM</h3>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="text" name="name" class="form-control" id="exampleInputName1"
+                           aria-describedby="emailHelp" placeholder="Enter name">
+
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                           placeholder="Enter email">
+                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <!--<input type="checkbox" class="form-check-input" id="exampleCheck1">-->
+                    <!--&lt;!&ndash;<label class="form-check-label" for="exampleCheck1">Check me out</label>&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                    <button onclick="nm1()" type="button" class="btn btn-secondary">Submit</button>
+                </div>
+            </form>
+            <table id="table1" class="table">
+                <thead>
+                <tr id="table_row">
+                    <th  scope="col">name</th>
+                    <th scope="col">email</th>
+                    <th scope="col">password</th>
+                    <th scope="col">update</th>
+                    <th scope="col">delete</th>
+                </tr>
+                </thead>
+
+            </table>
+
+
+            <!--<table id="table1" border="1">-->
+                <!--<tr id="table_row">-->
+
+                    <!--<td> Name</td>-->
+                    <!--<td> email</td>-->
+                    <!--<td> password</td>-->
+                <!--</tr>-->
+
+
+            <!--</table>-->
+
+
+        </div>
+
+    </div>
+<!--</div>-->
+
+
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
