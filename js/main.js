@@ -1,4 +1,4 @@
-function nm1() {
+    function nm1() {
 
     var name, email, password, table, rows;
 
@@ -57,7 +57,8 @@ function del(traw) {
 //     }
 //
 // }
-function chngetext(chg) {
+function chngetext(chg)
+{
 
     var table = document.getElementById('table1');
     var row = document.getElementById(`row${chg}`);
@@ -65,8 +66,10 @@ function chngetext(chg) {
 
     var msg = textchng.innerHTML;
 
-    if (msg === "UPDATE") {
 
+
+    if (msg === "UPDATE")
+    {
         textchng.innerText = "SAVE";
         for (var i = 0; i <= 3; i++)
         {
@@ -77,8 +80,9 @@ function chngetext(chg) {
 
 
 
-    else if (msg == = "SAVE")
+    else if (msg === "SAVE")
     {
+
             textchng.innerHTML = "UPDATE";
             for (var i = 0; i <= 3; i++)
             {
@@ -86,6 +90,7 @@ function chngetext(chg) {
                 // row.getElementsByTagName('td')[i].style.backgroundColor="#E8E8E8";
             }
         }
+
 
 
 }
